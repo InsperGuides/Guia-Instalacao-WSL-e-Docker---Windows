@@ -24,7 +24,23 @@ wsl --update
 
 Após a conclusão da atualização, dando um novo comando *wsl* teremos uma tela como a abaixo
 
-![image](https://user-images.githubusercontent.com/18387737/225309711-15963b1b-9880-487e-9724-d26b7aeec338.png)
+![chrome_xXk1sh20bw](https://user-images.githubusercontent.com/18387737/225321510-0360b75e-9ae0-4ff8-98db-959e6da804dd.png)
 
-Agora nosso WSL está atualizado para a arquitetura WSL2.
+Agora nosso WSL está atualizado para a arquitetura WSL2. Para instalar uma distribuição Linux, vamos utilizar o comando ``wsl.exe install <distribuição>``. Para saber o nome da distribuição que voçê quer instalar, podemos puxar uma lista online das disponíveis com o comando abaixo:
+````
+wsl.exe --list --online
+````
+![image](https://user-images.githubusercontent.com/18387737/225322426-c473659e-8182-4f12-bf8e-8e95fdad961b.png)
+
+Depois de escolher sua versão (por padrão, escolha o Ubuntu), basta trocar o campo ``<distribuição>`` do comando acima pelo nome da distribuição na primeira coluna da lista exibida:
+````
+wsl.exe install Ubuntu
+````
+
+Aguarde o fim da instalação, e então será pedido para você criar um usuário e senha para o subsistema. Anote em um lugar seguro o que você escolher caso seja necessário utilizar futuramente, mas agora seu WSL está pronto para ser utilizado pelo Docker. Caso ainda não tenha instalado ele no seu computador, siga para o passo 2.
+
+### 1.b: Windows anteriores ao 10
+Caso você esteja utilizando o Windows 8 ou anterior como seu OS, os passos acima podem não funcionar corretamente, então recomendamos seguir o guia da Microsoft para a instalação e atualização do WSL: https://learn.microsoft.com/pt-br/windows/wsl/install-manual
+
+
 
