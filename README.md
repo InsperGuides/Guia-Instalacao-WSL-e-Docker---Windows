@@ -42,6 +42,10 @@ Aguarde o fim da instalação, e então será pedido para você criar um usuári
 ### 1.b: Versões Anteriores do Windows
 Caso você esteja utilizando o Windows 8 ou anterior como seu OS, os passos acima podem não funcionar corretamente, então recomendamos seguir o guia da Microsoft para a instalação e atualização do WSL: https://learn.microsoft.com/pt-br/windows/wsl/install-manual
 
+Atualmente, o Docker só possui suporte para as versões do Windows que estão dentro de sua LifeCycle Policy, portanto recomendamos atualizar seu Sistema Operacional para o Windows 10 ou 11, e utilizar o passo [1.a](#1a---windows-10-e-11) do guia.
+
+![chrome_6eRyRAOKGa](https://user-images.githubusercontent.com/18387737/225332421-c1f52e9e-236b-45b8-a284-3f4cf7baf576.png)
+
 ## Passo 2: Instalando o Docker no Windows
 
 Para instalar o Docker, iremos utilizar o executável do Docker Desktop para Windows, que pode ser encontrado para download neste link: https://docs.docker.com/desktop/install/windows-install/
