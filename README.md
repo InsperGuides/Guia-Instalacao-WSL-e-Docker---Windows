@@ -8,7 +8,7 @@ Guia para instalação e atualização do Docker para o Windows, descrevendo com
 
 ## Passo 1 - Atualizando o WSL
 
-### 1.a - Windows 10 e Windows 11
+### 1.a - Windows 10 e 11
 Estas versões do Windows ja possuem o WSL instalado, porém ao rodar o comando ``wsl`` dentro do Prompt de Comando, teremos um aviso como o abaixo, dizendo que o wsl ainda não possui uma distribuição Linux associada para uso.
 
 ![image](https://user-images.githubusercontent.com/18387737/225308152-447da342-ebff-44e1-8bf8-f1034586c099.png)
@@ -39,7 +39,7 @@ wsl.exe install Ubuntu
 
 Aguarde o fim da instalação, e então será pedido para você criar um usuário e senha para o subsistema. Anote em um lugar seguro o que você escolher caso seja necessário utilizar futuramente, mas agora seu WSL está pronto para ser utilizado pelo Docker. Caso ainda não tenha instalado ele no seu computador, siga para o passo 2.
 
-### 1.b: Windows anteriores ao 10
+### 1.b: Versões Anteriores do Windows
 Caso você esteja utilizando o Windows 8 ou anterior como seu OS, os passos acima podem não funcionar corretamente, então recomendamos seguir o guia da Microsoft para a instalação e atualização do WSL: https://learn.microsoft.com/pt-br/windows/wsl/install-manual
 
 ## Passo 2: Instalando o Docker no Windows
