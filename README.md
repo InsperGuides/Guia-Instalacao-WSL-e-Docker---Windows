@@ -37,7 +37,7 @@ Depois de escolher sua versão (por padrão, escolha o Ubuntu), basta trocar o c
 wsl.exe install Ubuntu
 ````
 
-Aguarde o fim da instalação, e então será pedido para você criar um usuário e senha para o subsistema. Anote em um lugar seguro o que você escolher caso seja necessário utilizar futuramente, mas agora seu WSL está pronto para ser utilizado pelo Docker. Caso ainda não tenha instalado ele no seu computador, siga para o passo 2.
+Aguarde o fim da instalação, e então será pedido para você criar um usuário e senha para o subsistema. Anote em um lugar seguro o que você escolher caso seja necessário utilizar futuramente, mas agora seu WSL está pronto para ser utilizado pelo Docker. Caso ainda não tenha instalado ele no seu computador, siga para o [passo 2](#passo-2-instalando-o-docker-no-windows).
 
 ### 1.b: Versões Anteriores do Windows
 Caso você esteja utilizando o Windows 8 ou anterior como seu OS, os passos acima podem não funcionar corretamente, então recomendamos seguir o guia da Microsoft para a instalação e atualização do WSL: https://learn.microsoft.com/pt-br/windows/wsl/install-manual
@@ -54,7 +54,7 @@ Basta seguir o Instalador e o Docker ja estará pronto para ser usado na sua má
 
 ![image](https://user-images.githubusercontent.com/18387737/225328678-ab7325f8-e196-44a6-bbd3-b3bdfec3f3ca.png)
 
-para corrigir este problema, utilize o Passo 1 deste tutorial. Após concluir a configuração do WSL2, ele deverá estar desta forma:
+para corrigir este problema, utilize o [Passo 1](#passo-1---atualizando-o-wsl) deste tutorial. Após concluir a configuração do WSL2, ele deverá estar desta forma:
 
 ![image](https://user-images.githubusercontent.com/18387737/225329477-e9052219-3df3-4ec3-905e-054c37802724.png)
 
