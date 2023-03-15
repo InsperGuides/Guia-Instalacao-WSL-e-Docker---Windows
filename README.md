@@ -44,5 +44,17 @@ Caso você esteja utilizando o Windows 8 ou anterior como seu OS, os passos acim
 
 ## Passo 2: Instalando o Docker no Windows
 
+Para instalar o Docker, iremos utilizar o executável do Docker Desktop para Windows, que pode ser encontrado para download neste link: https://docs.docker.com/desktop/install/windows-install/
 
+Basta seguir o Instalador e o Docker ja estará pronto para ser usado na sua máquina. Caso ainda não tenha atualizado seu WSL, o aviso abaixo irá aparecer sempre que abrir o Docker Desktop:
+
+![image](https://user-images.githubusercontent.com/18387737/225328678-ab7325f8-e196-44a6-bbd3-b3bdfec3f3ca.png)
+
+para corrigir este problema, utilize o Passo 1 deste tutorial. Após concluir a configuração do WSL2, ele deverá estar desta forma:
+
+![image](https://user-images.githubusercontent.com/18387737/225329477-e9052219-3df3-4ec3-905e-054c37802724.png)
+
+Com isso, você ja está pronto para usar o Docker. Caso queira testar no terminal se ele está instalado, basta digitar ``docker``, e uma lista como a abaixo deverá aparecer:
+
+![image](https://user-images.githubusercontent.com/18387737/225329924-75af2ded-cd49-4244-86b7-610d93aae373.png)
 
