@@ -20,6 +20,11 @@ Para isso, primeiramente iremos rodar no prompt de comando(preferencialmente com
 ```
 wsl --update
 ```
+⚠️Caso esteja utilizando a Rede interna do Insper de Alunos ou Colaboradores, pode acontecer do download da atualização não iniciar dependendo do servidor da Microsoft em que a requisição de download chegar. Para evitar problemas, é recomendado executar os comandos do WSL em uma Rede externa.
 
-:warning:
+Após a conclusão da atualização, dando um novo comando *wsl* teremos uma tela como a abaixo
+
+![image](https://user-images.githubusercontent.com/18387737/225309711-15963b1b-9880-487e-9724-d26b7aeec338.png)
+
+Agora nosso WSL está atualizado para a arquitetura WSL2.
 
